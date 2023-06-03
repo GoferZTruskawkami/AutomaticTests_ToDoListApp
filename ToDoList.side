@@ -121,6 +121,108 @@
       ],
       "value": "${KEY_ENTER}"
     }]
+  }, {
+    "id": "60edec8d-7ad1-4ebd-b207-7e12e546efed",
+    "name": "CompletingTasks",
+    "commands": [{
+      "id": "2d7792e3-253b-43eb-85a1-8ff97a8ac6a6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dbb4cab-fae1-4c27-bfc8-c048ed086d1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce5802a5-6c48-42a2-a0b5-f5dda477c63e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(2) > .view > .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(2) > .view > .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5db11d-b4f3-462a-afc1-c42fe6f49d54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(4) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(4) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//li[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22bf73f6-36dd-4b7b-a57c-4796d3c96c94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(6) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(6) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[7]", "xpath:attributes"],
+        ["xpath=//li[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561f0cd4-e755-4c40-8654-9c9d5bc05098",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(8) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(8) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[9]", "xpath:attributes"],
+        ["xpath=//li[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e1772b-fc30-4457-b61a-7d5478eeb954",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(10) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(10) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[11]", "xpath:attributes"],
+        ["xpath=//li[10]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "77caf740-e846-49fa-b68e-ac2e9ad05532",
+    "name": "DeletingTasks",
+    "commands": [{
+      "id": "0ecb2879-dc57-4dc2-ab67-931c057341ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8ba8f1c-307c-4da0-b533-f9d12f41f5ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67c5160c-7d61-4d94-9101-ec2ffe65fe6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "0a5dcc9d-fb7c-4fe9-8292-d1d82c24e9a7",
