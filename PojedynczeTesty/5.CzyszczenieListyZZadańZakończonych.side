@@ -1,0 +1,46 @@
+{
+  "id": "dfeadddb-b19b-41dd-9c75-3b4b058708f0",
+  "version": "2.0",
+  "name": "5.CzyszczenieListyZZadańZakończonych",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "b6f70b37-d0f7-4500-8938-672de8161a60",
+    "name": "CzyszczenieListy",
+    "commands": [{
+      "id": "82286e91-1758-4c21-96ab-93b7ede301a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4483fa6-910c-42e5-9716-a100dae100b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x448",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41ce439a-214a-4302-b43d-e3a10947b969",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17beef92-0f6f-43b1-bc20-b57b6d0ed309",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b6f70b37-d0f7-4500-8938-672de8161a60"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}

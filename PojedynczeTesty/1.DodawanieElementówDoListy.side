@@ -1,0 +1,215 @@
+{
+  "id": "8d8e921e-575e-485b-84f7-e512c9ed0789",
+  "version": "2.0",
+  "name": "DodawanieElementówDoListy",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "f62b1b36-31ca-4581-9e7a-adf42d3bd2ce",
+    "name": "DodawanieZadań",
+    "commands": [{
+      "id": "f82f05c8-4c16-4ed4-bf2b-c70e41dd457c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7160683-e457-4773-bf4e-ed3fc2326ecd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x448",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d748594e-5a20-4bb0-b3b1-d7119f3fc75a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Zrobić pranie"
+    }, {
+      "id": "2e58a33a-292b-4058-ba53-6d5774b5d815",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fc8bb236-fa6c-43b0-a64b-eecd6ead2ded",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Kupić pomidory"
+    }, {
+      "id": "88abc702-af87-4b5e-91ca-071f1fdabc7f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "56666b41-b63f-430e-8b67-3f468a1c5a7b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować zupę"
+    }, {
+      "id": "3230445d-27ad-4eba-81d7-f66c3af3f280",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6bfe526c-8b08-419b-99d9-b6fbceb10a32",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Nastawić zmywarkę"
+    }, {
+      "id": "a9539eca-62cb-426c-a2d5-010e20e30019",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f60ec652-af37-4cf0-9c65-f1db3eba93bd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Zaszyć skarpetki"
+    }, {
+      "id": "61d67748-5d06-4e47-8c79-86db2082b025",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5d6ba8fc-9401-4feb-a140-4c4381368ea2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Wypić kawkę"
+    }, {
+      "id": "f568583a-1146-4a54-b7ac-9380d4d8eb8b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6420aec8-83e8-4b99-b7f4-6720ab3c5b3e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Poczytać książkę"
+    }, {
+      "id": "0bfd84e5-b656-4a9d-b30d-313791286dd4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b6fc15d6-be82-4294-948e-b7bb6ae53b0a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Nauczyć się Pythona"
+    }, {
+      "id": "6bb15094-50d7-478e-a177-43bd0733c5f4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f4d79dcd-43de-4eff-9e2a-11970e8e08a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Wymyć wannę"
+    }, {
+      "id": "f0711910-f4db-4962-a229-4486e04d8651",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "6a2eecb6-ebe2-40a8-88ff-feea23f8a432",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f62b1b36-31ca-4581-9e7a-adf42d3bd2ce"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}

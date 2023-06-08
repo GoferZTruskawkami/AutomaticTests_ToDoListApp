@@ -1,0 +1,46 @@
+{
+  "id": "20c17d71-25ed-4b15-be83-f46285385175",
+  "version": "2.0",
+  "name": "4.OznaczenieWszystkichZadańJakoZakończone",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "1c88bfc3-55ce-484d-8af1-aa342765bdd6",
+    "name": "WszystkieZadaniaZakończone",
+    "commands": [{
+      "id": "7ea52f66-40d3-4428-aa57-15051297e0c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f58efa09-f4ef-48b2-b6e5-0e3fe4e99a89",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x448",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a40d295e-398d-4e88-9be1-f47192142380",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main > label",
+      "targets": [
+        ["css=.main > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mark all as complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "673488d1-dc48-4fd3-bbb0-71a47b39ac10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1c88bfc3-55ce-484d-8af1-aa342765bdd6"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}

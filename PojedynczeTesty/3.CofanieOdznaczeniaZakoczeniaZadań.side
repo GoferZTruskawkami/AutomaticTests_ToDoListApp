@@ -1,0 +1,90 @@
+{
+  "id": "9e50c7a9-0dcd-47bb-a379-60b11a237179",
+  "version": "2.0",
+  "name": "CofanieOdznaczeniaZakończeniaZadania",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "f60e5235-a308-42d5-b0e9-2dd6bf35fb34",
+    "name": "CofanieZakończenia",
+    "commands": [{
+      "id": "d5d1f0cf-6d8e-4088-9dc0-13ad023a4f95",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6658d6a-b45c-465e-b969-39fa378322f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x448",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de94a3a3-f22a-4218-8bf7-22d72e9fdc17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4d0edf3-4941-4b90-a86d-4d085f410d01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .view > .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .view > .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7954be3b-ae0f-4e74-89a3-f71915fd955b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(5) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(5) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7249b232-967c-4d65-ac76-c044023a8f62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(7) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(7) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[8]", "xpath:attributes"],
+        ["xpath=//li[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b5a3a9-2c0c-4bf6-9964-78e1b39473ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.completed .toggle",
+      "targets": [
+        ["css=.completed .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[10]", "xpath:attributes"],
+        ["xpath=//li[9]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "32c49728-6d18-49e7-aedc-83b425a2edf9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f60e5235-a308-42d5-b0e9-2dd6bf35fb34"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
