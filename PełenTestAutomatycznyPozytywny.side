@@ -1,0 +1,474 @@
+{
+  "id": "72efa7cb-3aa8-4995-b542-ff660f0270f8",
+  "version": "2.0",
+  "name": "PełenTestAutomatycznyPozytywny",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "22237a33-2154-4048-9f5d-5fd329ea045f",
+    "name": "PrzypadekPozytywny",
+    "commands": [{
+      "id": "36d682b1-f885-4f9b-a6fe-80ba0dc76d7b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead04751-7970-4e9b-b5b5-9becac470300",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1007x448",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f10c02c3-d368-4b85-8470-f0383b28623b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ugotować zupę"
+    }, {
+      "id": "0d627beb-c210-475b-bb01-e1bd5a33e180",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bba91a4f-a0dc-4633-9dd7-e275758d0427",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Nastawić pranie"
+    }, {
+      "id": "ad07b7c5-6432-4975-9454-0066b4997997",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f9ec358a-62f5-4db6-bf62-501a58489455",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Wymyć wannę"
+    }, {
+      "id": "2f757b5f-b974-4206-aaf6-4664e06d3984",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bd3e7586-f62f-4420-8402-3405133b23a1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Nastawić zmywarkę"
+    }, {
+      "id": "ca379492-4953-4889-b26b-173fd6ae82c5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b4a37c6-6f05-4b75-8a5e-ad3128363c49",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   kupić pomidory"
+    }, {
+      "id": "faf95c32-2b5e-4baf-aeaf-9b4daa752c04",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5bc9fcef-9646-4dff-b41b-4ac12756a478",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Wypić herbatę"
+    }, {
+      "id": "104b5668-0aff-44d9-9b62-2946d6d86808",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ae5bc317-5601-44e4-9b62-899932a796ea",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Przeczytać książkę"
+    }, {
+      "id": "09cdc820-25cf-4b70-b428-55e03cd9ebf5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "6d571eaf-c4f7-43fa-8f0b-4bb2dfbe5f8d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Nauczyć się Pythona"
+    }, {
+      "id": "dd4a51f2-4df7-4b15-b3df-850495c843a4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4a409b51-cbe9-44da-a0da-90d95519ef49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(5) .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(5) .ng-binding", "css:finder"],
+        ["xpath=//li[5]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'kupić pomidory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43cca8ad-2157-4db3-9c62-9836f3217d1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(5) .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(5) .ng-binding", "css:finder"],
+        ["xpath=//li[5]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'kupić pomidory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac45aaa1-af47-4d67-a121-4e95f65fe6a7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ng-scope:nth-child(5) .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(5) .ng-binding", "css:finder"],
+        ["xpath=//li[5]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'kupić pomidory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18caa774-c13c-487e-b0d9-d10944e5cf04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.editing .edit",
+      "targets": [
+        ["css=.editing .edit", "css:finder"],
+        ["xpath=//li[5]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8baf3681-b4ba-495b-bed1-d3f6a73e89b8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-valid-parse:nth-child(1)",
+      "targets": [
+        ["css=.ng-valid-parse:nth-child(1)", "css:finder"],
+        ["xpath=//li[5]/form/input", "xpath:position"]
+      ],
+      "value": "Kupić pomidory"
+    }, {
+      "id": "6257cd1a-bc82-45ec-b5fc-c58a03b07670",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ng-valid-parse:nth-child(1)",
+      "targets": [
+        ["css=.ng-valid-parse:nth-child(1)", "css:finder"],
+        ["xpath=//li[5]/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2bb735c3-5268-4a89-87c0-394d1e16bd5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(1) > .view > .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(1) > .view > .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[2]", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f2ed74d-d392-4b22-bf44-ed85908c538d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(3) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(3) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9034ee46-a4a2-41ed-b43e-f45dd585509b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(5) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(5) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
+        ["xpath=//li[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "925b840d-e26b-450f-a41f-9a11c794a936",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(7) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(7) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[8]", "xpath:attributes"],
+        ["xpath=//li[7]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f20148-3437-4875-ad66-1100754e6068",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=active",
+      "targets": [
+        ["linkText=active", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'active')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/active')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'active')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca77e700-8e26-45a5-96ed-e40cae94f920",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Completed",
+      "targets": [
+        ["linkText=Completed", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Completed')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/completed')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Completed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "793a036a-a6a7-4f0c-989b-d51229713872",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(4) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(4) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//li[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fcb3eb3-fa25-44a7-8f25-1ae0e6b4a6a9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=active",
+      "targets": [
+        ["linkText=active", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'active')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/active')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'active')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f88a17-203d-4c1c-8c29-b185e1103b28",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=active",
+      "targets": [
+        ["linkText=active", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'active')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/active')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'active')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce10cd6-8e21-4aef-b9c2-ad3af61c1fb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All",
+      "targets": [
+        ["linkText=All", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71cc955b-8c52-4830-bf39-224d9e8df2fc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=All",
+      "targets": [
+        ["linkText=All", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f452bd8b-21a3-4a6c-8b9a-c12d6f02c838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(8) .toggle",
+      "targets": [
+        ["css=.ng-scope:nth-child(8) .toggle", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[9]", "xpath:attributes"],
+        ["xpath=//li[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e64ac8d-47ff-44b5-a740-ef1f58549dcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[9]", "xpath:attributes"],
+        ["xpath=//li[8]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeb9d8d2-e4b3-4b69-8e37-63d32e9927f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ad4079-5fac-48a9-afa8-50ff9c3f05dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main > label",
+      "targets": [
+        ["css=.main > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mark all as complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ef0ef89-b00d-4b30-9b9b-9a2563e61987",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main > label",
+      "targets": [
+        ["css=.main > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mark all as complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a222a6-783f-4a67-ba19-8ecab0513101",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.main > label",
+      "targets": [
+        ["css=.main > label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mark all as complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "013b6077-a119-4443-953e-b721485c774c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.clear-completed",
+      "targets": [
+        ["css=.clear-completed", "css:finder"],
+        ["xpath=//footer/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "34f46d9a-a57e-467e-b38e-4814966471f4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["22237a33-2154-4048-9f5d-5fd329ea045f"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
