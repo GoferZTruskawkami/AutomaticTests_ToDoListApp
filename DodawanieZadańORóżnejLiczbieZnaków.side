@@ -1,0 +1,152 @@
+{
+  "id": "65f82f77-e9eb-47ce-9621-f2ff957bf845",
+  "version": "2.0",
+  "name": "DodawanieZadańORóżnejLiczbieZnaków",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "d7969a48-d067-4a93-a5b0-bfd6a156ea09",
+    "name": "ZadaniaORóżnejLicznieZnaków",
+    "commands": [{
+      "id": "08f04ddb-ce48-44a8-8c72-87db241a86f3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "027402cd-3385-4ff0-a949-3459c3fb268c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1006x446",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9eaf4d1-964c-40d4-b11e-693af9e4f1ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39f5a720-ec3d-4ae3-918c-88cd692d5c8b",
+      "comment": "Dodanie zadania z liczbą znaków równą 177",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Litwo! Ojczyzno moja! ty jesteś jak zdrowie: Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie. "
+    }, {
+      "id": "03886244-27bb-422b-9912-b4f9fc310e0f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a315c41b-8383-41cf-ab3c-a597617c80db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-todo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ba51ff6-78a9-4375-9dfe-837b06df21e5",
+      "comment": "Dodanie zadania z liczbą znaków równą 255",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Litwo! Ojczyzno moja! ty jesteś jak zdrowie: Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie.  Panno święta, co Jasnej bronisz Częstochowy I w Ostrej świecisz Bramie! Ty, c"
+    }, {
+      "id": "4dd4c1d0-4338-4f77-992a-04efe36db131",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "06e45b52-ec3b-4222-9ff4-97cc28e5ea19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3086715a-1310-40e9-ada2-1fece0538bde",
+      "comment": "Dodanie zadania z liczbą znaków równą 256",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Litwo! Ojczyzno moja! ty jesteś jak zdrowie: Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie.  Panno święta, co Jasnej bronisz Częstochowy I w Ostrej świecisz Bramie! Ty, co"
+    }, {
+      "id": "8323b9b7-0ba1-4c99-8719-b009c13d75e4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3451b943-be45-44f4-8d36-53e6bba34b46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "832c30e8-0823-4c52-b98f-1b91b71abc16",
+      "comment": "Dodanie zadania z liczbą znaków równą 1775",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Litwo! Ojczyzno moja! ty jesteś jak zdrowie: Ile cię trzeba cenić, ten tylko się dowie, Kto cię stracił. Dziś piękność twą w całej ozdobie Widzę i opisuję, bo tęsknię po tobie.  Panno święta, co Jasnej bronisz Częstochowy I w Ostrej świecisz Bramie! Ty, co gród zamkowy Nowogródzki ochraniasz z jego wiernym ludem! Jak mnie dziecko do zdrowia powróciłaś cudem (Gdy od płaczącej matki, pod Twoją opiekę Ofiarowany, martwą podniosłem powiekę; I zaraz mogłem pieszo, do Twych świątyń progu Iść za wrócone życie podziękować Bogu), Tak nas powrócisz cudem na Ojczyzny łono.  Tymczasem przenoś moją duszę utęsknioną Do tych pagórków leśnych, do tych łąk zielonych, Szeroko nad błękitnym Niemnem rozciągnionych; Do tych pól malowanych zbożem rozmaitem, Wyzłacanych pszenicą, posrebrzanych żytem; Gdzie bursztynowy świerzop, gryka jak śnieg biała, Gdzie panieńskim rumieńcem dzięcielina pała, A wszystko przepasane jakby wstęgą, miedzą Zieloną, na niej z rzadka ciche grusze siedzą.  Śród takich pól przed laty, nad brzegiem ruczaju, Na pagórku niewielkim, we brzozowym gaju, Stał dwór szlachecki, z drzewa, lecz podmurowany; Świeciły się z daleka pobielane ściany, Tym bielsze, że odbite od ciemnej zieleni Topoli, co go bronią od wiatrów jesieni.  Dom mieszkalny niewielki, lecz zewsząd chędogi, I stodołę miał wielką, i przy niej trzy stogi Użątku, co pod strzechą zmieścić się nie może. Widać, że okolica obfita we zboże, I widać z liczby kopic, co wzdłuż i wszerz smugów  Świecą gęsto jak gwiazdy, widać z liczby pługów Orzących wcześnie łany ogromne ugoru, Czarnoziemne, zapewne należne do dworu, Uprawne dobrze na kształt ogrodowych grządek: Że w tym domu dostatek mieszka i porządek. Brama na wciąż otwarta przechodniom ogłasza, Że gościnna, i wszystkich w gościnę zaprasza. "
+    }, {
+      "id": "86676556-5416-4a84-9570-cb75061a14dd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "c3e08dc1-826d-4dc6-9900-0e05e28461e1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7969a48-d067-4a93-a5b0-bfd6a156ea09"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
