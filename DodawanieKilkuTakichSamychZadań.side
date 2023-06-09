@@ -1,0 +1,215 @@
+{
+  "id": "452a42d5-360c-4673-bf4f-eb38de7885db",
+  "version": "2.0",
+  "name": "DodawanieKilkuTakichSamychZadań",
+  "url": "https://todolist.james.am",
+  "tests": [{
+    "id": "05de1e8f-518c-42a8-ab94-9643abf49e2f",
+    "name": "WieleTakichSamychZadańNaLiście",
+    "commands": [{
+      "id": "5d0ebaea-44e4-413b-ac97-24d684842638",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "472188c3-1348-4c92-b506-906d0633bc6b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1006x446",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cea7bbce-a6c2-4afc-a535-1abd302acc8f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ugotować obiad"
+    }, {
+      "id": "b9b1c44e-c7e8-4158-abbc-44bb77e1901f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4427feba-54ac-43e3-84f6-1704adc728aa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "4743c938-e600-4fea-a769-715c7a0a984b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3d977f2b-6f7c-4172-b64f-be6e974b8e7a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "645e676c-5ebf-433d-ba7d-6bfb651179f7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e4927b68-9489-4ebd-a399-56e4a682552d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "905156f5-fbae-484d-8206-6c6a921f402b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e5b69259-5c13-414c-883f-4b967db5e119",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "878f03d2-d1e4-4a5c-bd84-bc6b3f5e537d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fa9b545f-2802-49cb-b3e1-1bf9e36ef02a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "e840d67e-19df-4c75-95a7-f45a0ceb7721",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cb2c2e8b-988f-4edc-a17e-7619cf2a22ae",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "e6433c6e-feee-41a6-aa74-6fe97933edd8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2e047282-0ea5-4d3b-8ffb-5fb4d018fab4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "13c957a7-dbdc-4289-90c7-b7dbcd8cc2a0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "65923c0e-d527-4adc-babf-b40ffe3d4649",
+      "comment": "",
+      "command": "type",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "   Ugotować obiad"
+    }, {
+      "id": "63237012-4b0c-45e6-b61e-7d0ab6c4f241",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.new-todo",
+      "targets": [
+        ["css=.new-todo", "css:finder"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "19b53c75-cf01-40cf-8d9f-adbe63514241",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05de1e8f-518c-42a8-ab94-9643abf49e2f"]
+  }],
+  "urls": ["https://todolist.james.am/"],
+  "plugins": []
+}
